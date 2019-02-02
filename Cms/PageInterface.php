@@ -6,4 +6,9 @@ interface PageInterface
      * @return string
      */
     public function getContent();
+
+    /**
+     * @return array
+     */
+    public function getCustomFields();
 }
